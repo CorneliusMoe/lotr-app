@@ -9,7 +9,7 @@ export default function TwoTowers() {
     <>
       <ul>
         <li>
-          <Link href="/volumes">Volumes</Link>
+          <Link href="/volumes">Overview</Link>
         </li>
       </ul>
       <h1>{info.title}</h1>
@@ -30,7 +30,8 @@ export default function TwoTowers() {
       </ul>
       <Image src={info.cover} alt="the-two-towers" width="140" height="230" />
       <footer>
-        <Link href="/volumes/the-fellowship-of-the-ring">Previous Volume</Link>{" "}
+        <Link href="/volumes/the-fellowship-of-the-ring">Previous Volume</Link>
+        {" / "}
         <Link href="/volumes/the-return-of-the-king">Next Volume</Link>
       </footer>
     </>

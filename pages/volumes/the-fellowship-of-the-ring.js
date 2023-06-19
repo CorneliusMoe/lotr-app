@@ -11,7 +11,7 @@ export default function TheFellowship() {
     <>
       <ul>
         <li>
-          <Link href="/volumes">Volumes</Link>
+          <Link href="/volumes">Overview</Link>
         </li>
       </ul>
       <h1>{info.title}</h1>
