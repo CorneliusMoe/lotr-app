@@ -15,13 +15,13 @@ export default function TwoTowers() {
       <h1>{info.title}</h1>
       <p>{info.description}</p>
       <ul>
-        <li>{info.books[0].ordinal}</li>
+        <li>{info.books[0].ordinal}:</li>
         <li>
           <ul>
             <li> {info.books[0].title}</li>
           </ul>
         </li>{" "}
-        <li>{info.books[1].ordinal}</li>
+        <li>{info.books[1].ordinal}:</li>
         <li>
           <ul>
             <li> {info.books[1].title}</li>
